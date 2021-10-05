@@ -1,7 +1,7 @@
 .container {
     background-color: lightpink;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: center;
     flex-wrap: nowrap;
     height: 100vh;
