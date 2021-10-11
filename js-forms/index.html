@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" defer></script>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+
+    <title>Spooky Inn</title>
+  </head>
+  <body>
+      <div id="root" >
+          <header>
+              Spooky Inn Reservation 🎃
+          </header>
+          <div class="container">
+            <form method="post" id="login-form">
+                <div id="email-div">
+                  <label for="email" id="email-label">Email</label>
+                  <input
+                    type="text"
+                    name="email"
+                    placeholder="email@domain.com"
+                    id="email-input"
+                  />
+                </div>
+          
+                <div>
+                  <label for="password" id="password-label">Password</label>
+                  <input type="password" name="password" />
+                </div>
+          
+                <div>
+                  <label for="first-name" id="first-name-label">First Name</label>
+                  <input type="text" name="first-name" />
+                </div>
+          
+                <div>
+                  <label for="last-name" id="last-name-label">Last Name</label>
+                  <input type="text" name="last-name" />
+                </div>
+          
+                <div id="check-in-div">
+                  <label for="check-in" id="check-in-label">Check In</label>
+                  <input type="datetime-local" name="check-in" id="check-in"/>
+                </div>
+          
+                <div>
+                  <label for="check-out" id="check-out-label">Check Out</label>
+                  <input type="datetime-local" name="check-out" id="check-out" />
+                </div>
+                <button type="submit">Submit</button>
+              </form>
+          </div>
+          </div>
+        
+    
+  </body>
+</html>
